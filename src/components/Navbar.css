@@ -1,0 +1,40 @@
+*{
+
+    margin:0;
+    padding:0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: #3375B2;
+    /* padding: 0 1vw; */
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    padding-left:2vw;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding-right:1vw;
+  } 
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-left: 1vw; 
+    font-family: 'Space Grotesk', sans-serif;
+    color: black; 
+  }
+  
+  .icon {
+    width: 1vw;
+  }
+  

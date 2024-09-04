@@ -1,0 +1,98 @@
+.list {
+    height: 80vh;
+    background-color: #FFF174;
+    width: 24vw;
+    margin-top: 5vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.head {
+    background-color: #F5B263;
+    height:10vh;
+}
+
+h2 {
+    padding-left: 7.5vw;
+    padding-top:2vh;
+}
+
+/* ScrollableList.css */
+.scrollable-container {
+    height: 100%; /* Make it fill the height of the parent container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.scrollable-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block; /* Ensure the list itself is a block element */
+}
+
+.scrollable-list li {
+    display: block; /* Make sure each list item is a block element */
+    margin-bottom: 10px;
+}
+
+.scrollable-list a {
+    text-decoration: none;
+    color: #3375B2;
+    font-family: 'Space Grotesk', sans-serif;
+    display: block; /* Ensure the links inside the list items are block elements */
+}
+
+.scrollable-list a:hover {
+    text-decoration: underline;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .image-container {
+    position: relative;
+    width: 100vw; /* Make the container full width */
+    height: 40vh; /* Set the height to 40% of the viewport height */
+    overflow: hidden; /* Hide any overflow from the image */
+  }
+  
+  .main-image {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: 100%; /* Make the image take up the full height of the container */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+  }
+  
+  
+  .alert-image {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: 40vh; /* Set the height to 40% of the viewport height */
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+  }
+  
+  
+
+  

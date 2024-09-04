@@ -1,0 +1,29 @@
+
+.linear-text-carousel {
+padding-bottom:1vh;
+}
+  
+  .text-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 10vw;
+  }
+  
+  .text {
+    display: inline-block;
+    white-space: nowrap; /* Prevent text wrapping */
+    animation: linearMove 15s linear infinite;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px; /* Adjust size as needed */
+    color: black; /* Ensure text is visible */
+  }
+  
+  @keyframes linearMove {
+    0% {
+      transform: translateX(100%); /* Start outside to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* End outside to the left */
+    }
+  }
+  
